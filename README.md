@@ -1,4 +1,5 @@
 The dataset is quite large and hence can't be uploaded here. You can download the dataset by visting this <a href="https://data.world/dcopendata/crime-incidents-in-2011/workspace/file?filename=Crime_Incidents_in_2011.dbf">link</a>.
+
 <h1>About the Dataset</h1>
 
 <p>This dataset is an instance of many crime registered in the Columbia city of USA in the year 2011. Here each record represents a particular registered crime. This dataset consists of various fields, out of which our primary focus will be on five particular fields. These fields are reporting date, shift, method, offense, and district.</p>
@@ -30,3 +31,7 @@ The dataset is quite large and hence can't be uploaded here. You can download th
 <p>Other than the columns named above, we have also retained the case id column (initially of the name ccn), the neighbourhood column (initially of the name neighborho), and the precinct column (initially of the name voting pre). The case id column can be used to uniquely identify a registered crime. Although the use of the other two columns is close to none during the analysis, these may still serve as a good measure to identify the crime trends.</p>
 
 <p>Using this dataset we will be studying crime trends over various fields. We will also be analysing the relationship between our primary fields. Based on the observed crime trends, we will be deriving appropriate conclusions.</p> 
+
+<h1>Pre-Processing</h1>
+
+<p>In this section, we will be preprocessing the dataframe for it to achieve our desired format. Most of the preprocessing necessities are already described above in the dataset section. Other than that, we will be checking for any null values in our dataset. In such a case, depending on the number of missing values, we will be either dropping such records or taking in place other appropriate measures to handle the missing values</p>
